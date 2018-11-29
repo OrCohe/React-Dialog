@@ -1,0 +1,17 @@
+Dialog optional and must attributes
+
+  <Dialog
+    appElement=your app root element id **must
+    modalIsOpen= state of bool if is on or not ** must
+    closeModal= get function to close your modal (change state to false) ** must
+    closeBtn= create default close button - gets same function to close your modal
+    style= custom styles object
+    header= header - should get string
+    headerStyle= custom header style object
+    bodyStyle= custom body style object
+    footer= create button - get object or array of object - object should have {name: 'string',func: 'funtion or array of functions that should happen',side: 'left/right/center'
+    footerStyle= custom footer style object
+    
+  >
+  your html here
+  </Dialog>
